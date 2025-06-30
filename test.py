@@ -4,7 +4,7 @@ def run_test(test_prompt: str,
              model_name="phi4-mini-reasoning:latest",
              options=None):
     responses = []
-    for i in range(10):
+    for i in range(1000):
         try:
             resp = chat(
                 model=model_name,
